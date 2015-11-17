@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+#srno
+{ width:200px;
+text-align:center;
+
+}
+
+#sem
+{
+	width:400px;
+	text-align:center;
+}
+#date
+{
+	width:400px;
+	text-align:center;
+}
+#srno1
+{ width:200px;
+  font-size:18px;
+  color:#03C;
+  text-align:center;
+}
+
+#sem1
+{
+	width:400px;
+	font-size:18px;
+	color:#03C;
+	text-align:center;
+}
+#date1
+{
+	width:400px;
+	font-size:18px;
+	color:#03C;
+	text-align:center;
+}
+#submit1
+{
+	width:200px;
+	font-size:18px;
+	color:#03C;
+	text-align:center;
+}

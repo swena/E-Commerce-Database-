@@ -1,0 +1,18 @@
+$(document).ready(function() {
+	$.noConflict();
+	$('#inst_name').hide();	
+	$('#inst_id').hide();
+	$('#inst_pass').hide();
+		
+	for(var i=1;i<4;i++)
+	{
+		var b="#b"+i;
+		$(b).click(function(){
+		
+		$(this).prev().show();		
+	});	
+	}
+	$('#b1').click(function(){
+		$(this).prev().prev().show();		
+	});
+});
